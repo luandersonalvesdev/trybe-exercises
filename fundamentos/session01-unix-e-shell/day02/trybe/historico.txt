@@ -1,0 +1,5 @@
+  532  ll
+  533  history
+  534  history | tail -n -5
+  535  history | tail -n -5 > cat historico.txt
+  536  history | tail -n -5 > historico.txt
