@@ -1,3 +1,3 @@
 <html>
-	<h1 class=""> Oi </h1>
+	<h1 class="tittle"> Oi </h1>
 </html>
