@@ -1,0 +1,8 @@
+p:hover{
+    background-color: palegreen;
+}
+
+p:hover::before{
+    content: "►";
+    margin-right: .4rem;
+}
