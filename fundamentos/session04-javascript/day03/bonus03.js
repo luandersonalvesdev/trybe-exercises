@@ -18,11 +18,12 @@ while(n != 0){
 
   for(let index = 0; index < assistent; index++){
 
-    if((index+1) == assistent){
+    if((index+1) >= n){
       writer += '*';
     }else{
-      writer += '-';
+      writer += ' ';
     }
+    
   }
 
   console.log(writer);
