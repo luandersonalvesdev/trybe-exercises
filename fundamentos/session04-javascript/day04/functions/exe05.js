@@ -14,16 +14,29 @@
 
 let array = [2, 3, 2, 5, 8, 2, 3];
 
-function verifyLastLetters(array) {
-  
-  array.forEach((value) => {
-    if(value.length > bigger.length){
-      bigger = value;
-    }
-  });
+function verifyRepeatNumber(array) {
+  let countRepeat = 0;
+  let countNumber = 0;
+  let indexRepeatNumber = 0;
 
-  return bigger;
+  for(let index in array){
+    let verifyNumber = array[index];
+    
+    for(let index2 in array){
+      if(verifyNumber === array[index2]){
+        countNumber += 1;
+      }
+    }
+
+    if(countNumber > countRepeat){
+      countRepeat = countNumber;
+      indexRepeatNumber = index;
+    }
+
+    countNumber = 0;
+  }
+  
+  return array[indexRepeatNumber];
 };
 
-console.log(verifyLastLetters(array));
-// INCOMPLETAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+console.log(verifyRepeatNumber(array));

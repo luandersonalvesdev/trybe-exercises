@@ -20,9 +20,9 @@
 
 */
 
-let wordOne = 'joaofernando', wordTwo = 'ando';
+let wordOne = 'trybe', wordTwo = 'be';
 
-function verifyLastLetters(wordOne, wordTwo) {
+function verifyLastLetter(wordOne, wordTwo) {
   
   let splitWordOne = wordOne.split('').reverse();
   let splitWordTwo = wordTwo.split('').reverse();
@@ -48,4 +48,4 @@ function verifyLastLetters(wordOne, wordTwo) {
 
 };
 
-console.log(verifyLastLetters(wordOne, wordTwo));
+console.log(verifyLastLetter(wordOne, wordTwo));

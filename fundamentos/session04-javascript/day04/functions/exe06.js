@@ -14,7 +14,7 @@
 
 let n = 5;
 
-function verifyLastLetters(n) {
+function sumNumbers(n) {
   
   let sum = 0;
 
@@ -25,4 +25,4 @@ function verifyLastLetters(n) {
   return sum;
 };
 
-console.log(verifyLastLetters(n));
+console.log(sumNumbers(n));
