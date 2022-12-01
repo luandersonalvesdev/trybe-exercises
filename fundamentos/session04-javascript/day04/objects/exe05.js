@@ -29,23 +29,12 @@ let infoTwo = {
 };
 infoTwo['recorrente'] = 'sim';
 
-let infos = [];
-let infosTwo = [];
-
 for(let key in info){
-  infos.push(info[key]);
-}
 
-for(let keyTwo in infoTwo){
-  infosTwo.push(infoTwo[keyTwo]);
-}
-
-for(let index = 0; index < infos.length; index += 1){
-  if(infos[index] === infosTwo[index]){
-    console.log('Ambos recorrentes');
+  if(info[key] != infoTwo[key]){
+    console.log(info[key], 'e', infoTwo[key]);
   }else{
-    console.log(infos[index], 'e', infosTwo[index]);
+    console.log('Ambos recorrentes');
   }
 
 }
-// INCOMPLETOOOOOOOOOOOOOOOOOOOOOO
