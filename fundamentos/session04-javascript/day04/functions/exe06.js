@@ -5,27 +5,24 @@
 
   Spoiler-alert: para os exercícios do dia, os métodos split, join e reverse podem ser muito úteis.
 
-    Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
+    Crie uma função que receba um número natural (número inteiro não negativo) N e retorne o somatório de todos os números de 1 até N.
 
-    Array de teste: [2, 3, 6, 7, 10, 1];.
+    Valor de teste: N = 5.
 
-    Valor esperado no retorno da função: 4.
+    Valor esperado no retorno da função: 1+2+3+4+5 = 15.
 */
 
-let array = [2, 3, 6, 7, 10, 1];
+let n = 5;
 
-function verifyBiggerNumber(array) {
+function verifyLastLetters(n) {
   
-  let bigger = 0, index = 0;
+  let sum = 0;
 
-  array.forEach((value, indexArray) => {
-    if(value > bigger){
-      bigger = value;
-      index = indexArray;
-    }
-  });
-
-  return index;
+  for(let index = 0; index <= n; index++){
+    sum += index;
+  }
+  
+  return sum;
 };
 
-console.log(verifyBiggerNumber(array));
+console.log(verifyLastLetters(n));

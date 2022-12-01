@@ -5,22 +5,22 @@
 
   Spoiler-alert: para os exercícios do dia, os métodos split, join e reverse podem ser muito úteis.
 
-    Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
+    Crie uma função que receba um array de inteiros e retorne o índice do menor valor.
 
-    Array de teste: [2, 3, 6, 7, 10, 1];.
+    Array de teste: [2, 4, 6, 7, 10, 0, -3];.
 
-    Valor esperado no retorno da função: 4.
+    Valor esperado no retorno da função: 6.
 */
 
 let array = [2, 3, 6, 7, 10, 1];
 
-function verifyBiggerNumber(array) {
+function verifySmallerNumber(array) {
   
-  let bigger = 0, index = 0;
+  let smaller = array[0], index = 0;
 
   array.forEach((value, indexArray) => {
-    if(value > bigger){
-      bigger = value;
+    if(value < smaller){
+      smaller = value;
       index = indexArray;
     }
   });
@@ -28,4 +28,4 @@ function verifyBiggerNumber(array) {
   return index;
 };
 
-console.log(verifyBiggerNumber(array));
+console.log(verifySmallerNumber(array));

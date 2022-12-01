@@ -5,27 +5,26 @@
 
   Spoiler-alert: para os exercícios do dia, os métodos split, join e reverse podem ser muito úteis.
 
-    Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
+    Crie uma função que receba um array de nomes e retorne o nome com a maior quantidade de caracteres.
 
-    Array de teste: [2, 3, 6, 7, 10, 1];.
+    Array de teste: ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];.
 
-    Valor esperado no retorno da função: 4.
+    Valor esperado no retorno da função: Fernanda.
 */
 
-let array = [2, 3, 6, 7, 10, 1];
+let array = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
 
-function verifyBiggerNumber(array) {
+function verifyRepeatNumber(array) {
   
-  let bigger = 0, index = 0;
+  let bigger = '';
 
-  array.forEach((value, indexArray) => {
-    if(value > bigger){
+  array.forEach((value) => {
+    if(value.length > bigger.length){
       bigger = value;
-      index = indexArray;
     }
   });
 
-  return index;
+  return bigger;
 };
 
-console.log(verifyBiggerNumber(array));
+console.log(verifyRepeatNumber(array));

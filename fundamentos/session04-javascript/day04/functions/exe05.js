@@ -5,27 +5,25 @@
 
   Spoiler-alert: para os exercícios do dia, os métodos split, join e reverse podem ser muito úteis.
 
-    Crie uma função que receba um array de inteiros e retorne o índice do maior valor.
+    Crie uma função que receba um array de inteiros e retorne o inteiro que mais se repete.
 
-    Array de teste: [2, 3, 6, 7, 10, 1];.
+    Array de teste: [2, 3, 2, 5, 8, 2, 3];.
 
-    Valor esperado no retorno da função: 4.
+    Valor esperado no retorno da função: 2.
 */
 
-let array = [2, 3, 6, 7, 10, 1];
+let array = [2, 3, 2, 5, 8, 2, 3];
 
-function verifyBiggerNumber(array) {
+function verifyLastLetters(array) {
   
-  let bigger = 0, index = 0;
-
-  array.forEach((value, indexArray) => {
-    if(value > bigger){
+  array.forEach((value) => {
+    if(value.length > bigger.length){
       bigger = value;
-      index = indexArray;
     }
   });
 
-  return index;
+  return bigger;
 };
 
-console.log(verifyBiggerNumber(array));
+console.log(verifyLastLetters(array));
+// INCOMPLETAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
