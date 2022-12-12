@@ -12,22 +12,32 @@ const ul = document.querySelector('.container');
 // - Crie uma função que adicione a classe 'tech' ao elemento `li` quando for clicado.
 //  - Deve existir apenas um elemento com a classe 'tech'. Como você faz isso?
 // console.log(ul.children);
-
 ul.addEventListener('click', (event) => {
   const li = event.target;
 
   for (let value of ul.children) {
-    if (value.classList[0] === 'tech') {
-      value.className = '';
+    if (value.classList.contains('tech')) {
+      value.classList.remove('tech');
     }
   };
 
-  li.className = 'tech';
+  li.classList.add('tech');
 
 });
 
 // - Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech';
+input.addEventListener('keyup', (event) => {
+  let valueInput = event.target.value;
+  let children = ul.children;
+  
+  for (let value of children) {
+    if(value.classList.contains('tech')){
+      value.innerText = valueInput;
+    }
+  }
+});
+
 
 // - Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
 // redirecione para alguma página;
