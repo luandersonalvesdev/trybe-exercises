@@ -4,12 +4,26 @@ const thirdLi = document.getElementById('third-li');
 const input = document.getElementById('input');
 const myWebpage = document.getElementById('my-spotrybefy');
 
+const arrayLi = [firstLi, secondLi, thirdLi];
+
 
 // - Copie esse arquivo e edite apenas ele;
 //  - Note que uma das caixas está um pouco acima das outras. Por que isso ocorre?
 
 // - Crie uma função que adicione a classe 'tech' ao elemento `li` quando for clicado.
 //  - Deve existir apenas um elemento com a classe 'tech'. Como você faz isso?
+const removeTech = () => {
+  for (let index = 0; index < arrayLi.length; index += 1) {
+    if (arrayLi[index].classList[0] === 'tech') {
+      console.log(arrayLi[index].classList);
+    };
+  }
+}
+
+firstLi.addEventListener('click', () => {
+  removeTech();
+  console.log('oi');
+});
 
 // - Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech';
