@@ -42,9 +42,19 @@ input.addEventListener('keyup', (event) => {
 // - Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
 // redirecione para alguma página;
 //  - Que tal redirecionar para seu portfólio?
+myWebpage.addEventListener('dblclick', () => {
+  window.location='https://luandersonalvesdev.github.io/portfolio/';
+});
 
 // - Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 // a cor do mesmo;
+myWebpage.addEventListener('mouseenter', (event) => {
+  event.target.style.color = 'red';
+});
+
+myWebpage.addEventListener('mouseout', (event) => {
+  event.target.style.color = 'white';
+});
 
 // Segue abaixo um exemplo do uso de event.target:
 
