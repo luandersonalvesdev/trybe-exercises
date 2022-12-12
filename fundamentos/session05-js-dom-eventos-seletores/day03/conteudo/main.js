@@ -3,8 +3,7 @@ const secondLi = document.getElementById('second-li');
 const thirdLi = document.getElementById('third-li');
 const input = document.getElementById('input');
 const myWebpage = document.getElementById('my-spotrybefy');
-
-const arrayLi = [firstLi, secondLi, thirdLi];
+const ul = document.querySelector('.container');
 
 
 // - Copie esse arquivo e edite apenas ele;
@@ -12,17 +11,19 @@ const arrayLi = [firstLi, secondLi, thirdLi];
 
 // - Crie uma função que adicione a classe 'tech' ao elemento `li` quando for clicado.
 //  - Deve existir apenas um elemento com a classe 'tech'. Como você faz isso?
-const removeTech = () => {
-  for (let index = 0; index < arrayLi.length; index += 1) {
-    if (arrayLi[index].classList[0] === 'tech') {
-      console.log(arrayLi[index].classList);
-    };
-  }
-}
+// console.log(ul.children);
 
-firstLi.addEventListener('click', () => {
-  removeTech();
-  console.log('oi');
+ul.addEventListener('click', (event) => {
+  const li = event.target;
+
+  for (let value of ul.children) {
+    if (value.classList[0] === 'tech') {
+      value.className = '';
+    }
+  };
+
+  li.className = 'tech';
+
 });
 
 // - Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
