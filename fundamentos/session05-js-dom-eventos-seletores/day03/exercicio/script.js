@@ -88,13 +88,23 @@ createButtonFriday.addEventListener('click', (event) => {
   for (let index = 0; index < ulDays.children.length; index += 1) {
     if (ulDays.children[index].classList.contains('friday')) {
       if (ulDays.children[index].innerText === textChange) {
-        console.log(ulDays.children[index].innerText);
         ulDays.children[index].innerText = fridays[aux];
       } else {
-        console.log(ulDays.children[index].innerText);
         ulDays.children[index].innerText = textChange;
       }
       aux += 1;
     };
   }
 });
+
+// DANDO ZOOM E OUTZOOM NOS DIAS
+ulDays.addEventListener('mouseover', (event) => {
+  const target = event.target;
+  target.style.transform = 'scale(1.6)';
+});
+
+ulDays.addEventListener('mouseout', (event) => {
+  const target = event.target;
+  target.style.transform = 'scale(1)';
+});
+
