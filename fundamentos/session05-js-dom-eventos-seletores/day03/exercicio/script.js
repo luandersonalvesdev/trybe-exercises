@@ -116,4 +116,14 @@ const createTaskFunction = (task) => {
 
   divMyTask.appendChild(createSpan);
 };
-// createTaskFunction('cozinhar');
+createTaskFunction('cozinhar');
+
+// ADICIONANDO COR PARA TAREFA
+const colorForTask = (color) => {
+  const createDivTask = document.createElement('div');
+  createDivTask.className = 'task';
+  createDivTask.style.backgroundColor = color;
+
+  divMyTask.appendChild(createDivTask);
+};
+colorForTask('#849374');
