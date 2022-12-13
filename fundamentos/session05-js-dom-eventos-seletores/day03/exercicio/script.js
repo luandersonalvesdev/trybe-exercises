@@ -33,3 +33,13 @@ decemberDaysList.forEach((value) => {
 
   ulDays.appendChild(li);
 });
+
+(function (feriado){
+  divButton = document.querySelector('.buttons-container');
+  const createButtonHoliday = document.createElement('button');
+
+  createButtonHoliday.innerText = 'Feriados';
+  createButtonHoliday.id = 'btn-holiday';
+  
+  divButton.appendChild(createButtonHoliday);
+})();
