@@ -112,11 +112,13 @@ ulDays.addEventListener('mouseout', (event) => {
 // COLOCANDO TAREFA PERSONALIZADA AO CALENDARIO
 const createTaskFunction = (task) => {
   const createSpan = document.createElement('span');
+  createSpan.className = 'task';
   createSpan.innerText = task;
 
   divMyTask.appendChild(createSpan);
 };
 createTaskFunction('cozinhar');
+
 
 // ADICIONANDO COR PARA TAREFA
 const colorForTask = (color) => {
@@ -126,4 +128,21 @@ const colorForTask = (color) => {
 
   divMyTask.appendChild(createDivTask);
 };
-colorForTask('#849374');
+colorForTask('red');
+
+// FAZENDO ALGO
+
+// select
+const selectCreateDivTask = document.querySelector('.tasks-container .my-tasks div');
+const selectCreateSpan = document.querySelector('.my-tasks span');
+
+console.log(selectCreateDivTask);
+
+selectCreateDivTask.addEventListener('click', () => {
+  if (selectCreateSpan.classList.contains('selected')) {
+    selectCreateSpan.classList.remove('selected');
+  } else {
+    selectCreateSpan.classList.add('selected');
+  }
+  // console.log('oi');
+});
