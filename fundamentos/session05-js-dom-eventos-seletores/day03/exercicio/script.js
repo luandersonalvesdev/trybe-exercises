@@ -19,7 +19,8 @@ const fridays = [4, 11, 18, 25];
 
 // SELECT
 const ulDays = document.querySelector('.days-container #days');
-divButton = document.querySelector('.buttons-container');
+const divButton = document.querySelector('.buttons-container');
+const divMyTask = document.querySelector('.tasks-container .my-tasks');
 
 // CREATE
 const createButtonHoliday = document.createElement('button');
@@ -108,3 +109,11 @@ ulDays.addEventListener('mouseout', (event) => {
   target.style.transform = 'scale(1)';
 });
 
+// COLOCANDO TAREFA PERSONALIZADA AO CALENDARIO
+const createTaskFunction = (task) => {
+  const createSpan = document.createElement('span');
+  createSpan.innerText = task;
+
+  divMyTask.appendChild(createSpan);
+};
+// createTaskFunction('cozinhar');
