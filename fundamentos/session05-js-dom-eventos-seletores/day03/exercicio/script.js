@@ -22,6 +22,7 @@ divButton = document.querySelector('.buttons-container');
 
 // CREATE
 const createButtonHoliday = document.createElement('button');
+const createButtonFriday = document.createElement('button');
 
 
 decemberDaysList.forEach((value) => {
@@ -64,3 +65,11 @@ createButtonHoliday.addEventListener('click', () => {
     }
   }
 });
+
+const createButtonFridayFunction = (sexta) => {
+  createButtonFriday.id = 'btn-friday';
+  createButtonFriday.innerText = sexta;
+
+  divButton.appendChild(createButtonFriday);
+};
+createButtonFridayFunction('Sexta-Feira');
