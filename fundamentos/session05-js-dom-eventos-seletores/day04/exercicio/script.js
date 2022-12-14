@@ -18,12 +18,23 @@ const arraySelect = [ulColorBg, ulColorFont, ulFontSize, ulLineSpacing, ulFontTy
 // SELECT OTHERS
 const ulContainer = document.querySelector('.ul-container');
 const main = document.querySelector('main');
+const header = document.querySelector('header');
 
-// CREATE
+// CREATE STORAGE SAVE
+const saveInStorage = () => {
+  localStorage.setItem('configs', main.getAttribute('style'));
+}
 
+// CREATE STORAGE LOAD
+let loadInStorage = () => {
+  if (localStorage.getItem('configs')) {
+    main.setAttribute('style', localStorage.getItem('configs'));
+  }
+}
 
 window.onload = () => {
 
+  // FUNCAO PARA CRIAR OS BOTOES AUTOMATICAMENTE
   (function(){
     for (let index = 0; index < allButtons.length; index += 1) {
       for (let index2 = 0; index2 < allButtons[index].length; index2 += 1) {
@@ -39,6 +50,7 @@ window.onload = () => {
     }
   })();
 
+  // FUNCAO PARA ALTERAR AS CONFIGS DA PAGINA
   ulContainer.addEventListener('click', (e) => {
     const target = e.target;
     console.log(target.parentElement.parentElement);
@@ -48,16 +60,22 @@ window.onload = () => {
 
         if (target.parentElement.parentElement.className === 'color-background') {
           main.style.backgroundColor = target.innerText;
+          saveInStorage();
         } else if (target.parentElement.parentElement.className === 'color-font') {
           main.style.color = target.innerText;
+          saveInStorage();
         } else if (target.parentElement.parentElement.className === 'font-size') {
           main.style.fontSize = target.innerText;
+          saveInStorage();
         } else if (target.parentElement.parentElement.className === 'line-spacing') {
           main.style.lineHeight = target.innerText;
+          saveInStorage();
         } else if (target.parentElement.parentElement.className === 'font-type') {
           main.style.fontFamily = target.innerText;
+          saveInStorage();
         } 
       }
     }
   });
+  loadInStorage();
 };
