@@ -17,7 +17,7 @@ const arraySelect = [ulColorBg, ulColorFont, ulFontSize, ulLineSpacing, ulFontTy
 
 // SELECT OTHERS
 const ulContainer = document.querySelector('.ul-container');
-const body = document.querySelector('body');
+const main = document.querySelector('main');
 
 // CREATE
 
@@ -41,17 +41,23 @@ window.onload = () => {
 
   ulContainer.addEventListener('click', (e) => {
     const target = e.target;
+    console.log(target.parentElement.parentElement);
 
     for (let index = 0; index < allButtons.length; index += 1) {
       for (let index2 = 0; index2 < allButtons[index].length; index2 += 1) {
 
-        if (target.innerText == allButtons[0][index2]) {
-          body.style.backgroundColor = allButtons[0][index2];
-        }
-
+        if (target.parentElement.parentElement.className === 'color-background') {
+          main.style.backgroundColor = target.innerText;
+        } else if (target.parentElement.parentElement.className === 'color-font') {
+          main.style.color = target.innerText;
+        } else if (target.parentElement.parentElement.className === 'font-size') {
+          main.style.fontSize = target.innerText;
+        } else if (target.parentElement.parentElement.className === 'line-spacing') {
+          main.style.lineHeight = target.innerText;
+        } else if (target.parentElement.parentElement.className === 'font-type') {
+          main.style.fontFamily = target.innerText;
+        } 
       }
     }
-
   });
-
 };
