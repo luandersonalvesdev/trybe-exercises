@@ -26,7 +26,7 @@ const divMyTask = document.querySelector('.tasks-container .my-tasks');
 const createButtonHoliday = document.createElement('button');
 const createButtonFriday = document.createElement('button');
 
-// ADICIONANDO CLASSES AOS DIAS
+// 1 ADICIONANDO CLASSES AOS DIAS
 decemberDaysList.forEach((value) => {
   const li = document.createElement('li');
   li.innerText = value;
@@ -47,7 +47,7 @@ decemberDaysList.forEach((value) => {
   ulDays.appendChild(li);
 });
 
-// CRIANDO O BOTÃO FERIADO
+// 2 CRIANDO O BOTÃO FERIADO
 const createButtonHolidayFunction = (feriados) => {
   createButtonHoliday.innerText = feriados;
   createButtonHoliday.id = 'btn-holiday';
@@ -56,7 +56,7 @@ const createButtonHolidayFunction = (feriados) => {
 };
 createButtonHolidayFunction('Feriados');
 
-// ALTERAR COR DOS FERIADOS
+// 3 ALTERAR COR DOS FERIADOS
 createButtonHoliday.addEventListener('click', () => {
   const colorChange = 'rgb(200, 200, 222)'
   const colorDefault = '#eee'
@@ -72,7 +72,7 @@ createButtonHoliday.addEventListener('click', () => {
   }
 });
 
-// CRIANDO O BOTÃO SEXTA
+// 4 CRIANDO O BOTÃO SEXTA
 const createButtonFridayFunction = (sexta) => {
   createButtonFriday.id = 'btn-friday';
   createButtonFriday.innerText = sexta;
@@ -81,7 +81,7 @@ const createButtonFridayFunction = (sexta) => {
 };
 createButtonFridayFunction('Sexta-Feira');
 
-// ALTERAR TEXTO DOS DIAS DE SEXTA
+// 5 ALTERAR TEXTO DOS DIAS DE SEXTA
 createButtonFriday.addEventListener('click', (event) => {
   const textChange = 'Sextou';
   let aux = 0;
@@ -98,7 +98,7 @@ createButtonFriday.addEventListener('click', (event) => {
   }
 });
 
-// DANDO ZOOM E OUTZOOM NOS DIAS
+// 6 DANDO ZOOM E OUTZOOM NOS DIAS
 ulDays.addEventListener('mouseover', (event) => {
   const target = event.target;
   target.style.transform = 'scale(1.6)';
@@ -109,7 +109,7 @@ ulDays.addEventListener('mouseout', (event) => {
   target.style.transform = 'scale(1)';
 });
 
-// COLOCANDO TAREFA PERSONALIZADA AO CALENDARIO
+// 7 COLOCANDO TAREFA PERSONALIZADA AO CALENDARIO
 const createTaskFunction = (task) => {
   const createSpan = document.createElement('span');
   createSpan.className = 'task';
@@ -120,7 +120,8 @@ const createTaskFunction = (task) => {
 createTaskFunction('cozinhar');
 
 
-// ADICIONANDO COR PARA TAREFA
+// 8 ADICIONANDO COR PARA TAREFA
+const colorToChange = 'red';
 const colorForTask = (color) => {
   const createDivTask = document.createElement('div');
   createDivTask.className = 'task';
@@ -128,21 +129,29 @@ const colorForTask = (color) => {
 
   divMyTask.appendChild(createDivTask);
 };
-colorForTask('red');
+colorForTask(colorToChange);
 
-// FAZENDO ALGO
-
+// 9 ADICIONANDO TASK-SELECTED NA DIV
 // select
 const selectCreateDivTask = document.querySelector('.tasks-container .my-tasks div');
-const selectCreateSpan = document.querySelector('.my-tasks span');
-
-console.log(selectCreateDivTask);
 
 selectCreateDivTask.addEventListener('click', () => {
-  if (selectCreateSpan.classList.contains('selected')) {
-    selectCreateSpan.classList.remove('selected');
+  if (selectCreateDivTask.classList.contains('selected')) {
+    selectCreateDivTask.classList.remove('selected');
   } else {
-    selectCreateSpan.classList.add('selected');
+    selectCreateDivTask.classList.add('selected');
   }
-  // console.log('oi');
+});
+
+// 10 ADICIONANDO COR NOS DIAS
+ulDays.addEventListener('click', (event) => {
+  const target = event.target;
+
+  if (selectCreateDivTask.classList.contains('selected')) {
+    if (target.style.color === colorToChange) {
+      target.style.color = 'rgb(119,119,119)';
+    } else {
+      target.style.color = colorToChange;
+    }
+  }
 });
