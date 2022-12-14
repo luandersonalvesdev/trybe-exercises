@@ -21,6 +21,9 @@ const fridays = [4, 11, 18, 25];
 const ulDays = document.querySelector('.days-container #days');
 const divButton = document.querySelector('.buttons-container');
 const divMyTask = document.querySelector('.tasks-container .my-tasks');
+const ulTasksList = document.querySelector('.task-list-container .task-list');
+const taskInput = document.querySelector('#task-input');
+const buttonAdd = document.querySelector('#btn-add');
 
 // CREATE
 const createButtonHoliday = document.createElement('button');
@@ -153,5 +156,28 @@ ulDays.addEventListener('click', (event) => {
     } else {
       target.style.color = colorToChange;
     }
+  }
+});
+
+// BONUS - ADICIONANDO LISTA DE COMPROMISSOS
+const addTasksAtList = () => {
+  const createLi = document.createElement('li');
+
+  if (taskInput.value === '') {
+    alert ('Por favor, insira algum valor.');
+  } else {
+    createLi.innerText = taskInput.value;
+    taskInput.value = '';
+  }
+
+  ulTasksList.appendChild(createLi);
+};
+
+buttonAdd.addEventListener('click', addTasksAtList);
+
+// quando aperta enter
+window.addEventListener('keyup', (e) => {
+  if (e.key === 'Enter') {
+    addTasksAtList();
   }
 });
