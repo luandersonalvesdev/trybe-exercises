@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form name="exe" method="GET">
+    <label for="full-name">Nome completo:</label>
+    <input type="text" name="full-name" id="full-name" maxlength="40" minlength="10">
+    <br>
+    <label for="email">Email:</label>
+    <input type="text" name="email" id="email" maxlength="50" minlength="10">
+    <br>
+    <input type="radio" name="travel" id="travel-city" value="city">
+    <label for="travel-city">Cidade</label>
+    <input type="radio" name="travel" id="travel-camp" value="camp">
+    <label for="travel-camp">Campo</label>
+    <input type="radio" name="travel" id="travel-beach" value="beach">
+    <label for="travel-beach">Praia</label>
+    <input type="radio" name="travel" id="travel-mount" value="mount">
+    <label for="travel-mount">Montanhas</label>
+
+    <h5>Espaço para digitar a resposta:</h5>
+    <textarea name="resp-text" id="resp-text" cols="40" rows="10" maxlength="50"></textarea>
+    <br>
+    <label for="date">Data:</label>
+    <input type="date" name="date" id="date">
+    <br>
+    <input type="checkbox" name="agree-1" id="agree-1">
+    <label for="agree-1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+    <br>
+    <br>
+    <input type="file" name="photo" id="photo">
+    <input type="checkbox" name="agree-2" id="agree-2" required>
+    <label for="agree-2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+    <br>
+    <input value="Enviar" id="submit" type="submit">
+    <input value="Apagar" id="reset" type="reset">
+  </form>
+</body>
+<script src="./script.js"></script>
+</html>
