@@ -1,0 +1,13 @@
+label {
+  color: var(--bs-body-color);
+}
+
+.form-check-input:checked {
+  color: red;
+}
+
+.form-date {
+  width: 50%;
+  max-width: 110px;
+  text-align: center;
+}
