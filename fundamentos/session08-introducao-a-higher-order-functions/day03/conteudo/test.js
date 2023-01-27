@@ -124,12 +124,12 @@ const estudantes = [
   },
 ];
 
+const betterClass = (acc, val) => acc.nota > val.nota ? acc : val
+
 const showResult = (students) => {
-  return students.map(val => {
-    return {
-      name: val.nome,
-      materia: val.materias.reduce((acc, val) => val.nota > acc ? acc = val : acc, 0),
-    };
-  });
+  return students.map((student) => ({
+    name: student.nome,
+    materia: student.materias.reduce(betterClass).name,
+  }));
 };
 console.log(showResult(estudantes));
