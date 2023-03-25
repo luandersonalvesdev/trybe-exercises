@@ -1,0 +1,1 @@
+https://github.com/luandersonalvesdev/exercise-trybe-rpg-battle/tree/main/src/tests
