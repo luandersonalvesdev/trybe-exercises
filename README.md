@@ -142,7 +142,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 - :heavy_check_mark: 1.4 - Projeto - Docker Todo-List
 
 
-#### Seção 01: [Introdução à SQL](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/back-end/session02-encontrando-dados-em-um-banco-de-dados)
+#### Seção 02: [Introdução à SQL](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/back-end/session02-encontrando-dados-em-um-banco-de-dados)
 
 - :heavy_check_mark: 2.1 - Banco de Dados SQL
 - :heavy_check_mark: 2.2 - Encontrando dados em um Banco de Dados
@@ -150,9 +150,18 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 - :heavy_check_mark: 2.4 - Manipulando tabelas
 - :heavy_check_mark: 2.5 - Projeto - All for One
 
-#### Seção 02: [Funções SQL, JOINs e Normalização](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/back-end/session03-funcoes-sql-joins-e-normalizacao)
+#### Seção 03: [Funções SQL, JOINs e Normalização](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/back-end/session03-funcoes-sql-joins-e-normalizacao)
 
 - :heavy_check_mark: 3.1 - Funções mais usadas no SQL
 - :heavy_check_mark: 3.2 - Descomplicando JOINs
 - :heavy_check_mark: 3.3 - Transformando ideias em um modelo de banco de dados
-- :clock230: 3.4 - Projeto - One for All
+- :heavy_check_mark: 3.4 - Projeto - One for All
+
+#### Seção 04: [Intro a desenvolvimento Web com Node.js](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/back-end/session04-intro-a-desenvolvimento-web-com-nodejs)
+
+- :clock230: 4.1 - Node.js: Runtime Assíncrono
+- :clock230: 4.2 - Node.js: API REST com Express
+- :clock230: 4.3 - Node.js: Testes de Integração
+- :clock230: 4.4 - Node.js: Express e Middlewares
+- :clock230: 4.5 - Node.js: Express e MySQL
+- :clock230: 4.6 - Projeto - Talker Manager
