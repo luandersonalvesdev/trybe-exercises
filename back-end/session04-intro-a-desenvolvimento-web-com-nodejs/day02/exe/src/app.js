@@ -5,11 +5,21 @@ const app = express();
 
 app.use(express.json());
 
+app.get('/movies/search', async (req, res) => {
+  try {
+    const { q } = req.query;
+    const moviesList = await readerMovies();
+    const moviesFiltered = moviesList.filter(({ movie }) => movie.toLowerCase().includes(q));
+    res.status(200).json(moviesFiltered);
+  } catch (error) {
+    console.log(error.menssage);
+  }
+});
+
 app.get('/movies/:id', async (req, res) => {
   const { id } = req.params;
   const moviesList = await readerMovies();
   const film = moviesList.find(({ id: idFilm }) => idFilm === Number(id));
-  if (!film.id) res.status(404).json({ menssage: 'filme não encontrado' });
   res.status(200).json({ film });
 });
 
