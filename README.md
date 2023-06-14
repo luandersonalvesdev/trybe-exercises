@@ -160,7 +160,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 #### Seção 04: [Intro a desenvolvimento Web com Node.js](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/back-end/session04-intro-a-desenvolvimento-web-com-nodejs)
 
 - :heavy_check_mark: 4.1 - Node.js: Runtime Assíncrono
-- :clock230: 4.2 - Node.js: API REST com Express
+- :heavy_check_mark: 4.2 - Node.js: API REST com Express
 - :clock230: 4.3 - Node.js: Testes de Integração
 - :clock230: 4.4 - Node.js: Express e Middlewares
 - :clock230: 4.5 - Node.js: Express e MySQL
