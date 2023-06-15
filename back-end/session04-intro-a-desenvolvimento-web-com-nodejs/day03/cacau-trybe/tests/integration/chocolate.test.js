@@ -50,6 +50,7 @@ const mockFile = JSON.stringify({
 describe('Testando a API Cacau Trybe', function () {
   this.beforeEach(function() {
     sinon.stub(fs.promises, 'readFile').resolves(mockFile);
+    
   });
 
   this.afterEach(function() {
@@ -152,15 +153,18 @@ describe('Testando a API Cacau Trybe', function () {
 
   describe('Usando o método PUT em /chocolates para atualizar um dado específico', function() {
     it('Retorna o dado já atualizado caso haja.', async function() {
+      sinon.stub(fs.promises, 'writeFile');
       const res = await chai.request(app).put('/chocolates/1').send({ name: "Mint Pretty Good", brandId: 2 });
 
       expect(res.status).to.be.equal(200);
-      expect(res.body).to.be.equal({
-        "chocolate": { 
+      expect(fs.promises.writeFile.called).to.be.equal(true);
+      expect(res.body).to.be.deep.equal({
+        chocolate: {
           "id": 1,
           "name": "Mint Pretty Good",
           "brandId": 2,
-      }});
+        }
+      });
     });
 
     it('Retorna o uma mensagem de erro caso não haja.', async function() {

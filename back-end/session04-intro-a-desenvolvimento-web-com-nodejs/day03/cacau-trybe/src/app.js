@@ -29,7 +29,7 @@ app.put('/chocolates/:id', async (req, res) => {
   const { name, brandId } = req.body;
   const updated = await uptadeChocolate(Number(id), name, brandId);
   if(!updated) res.status(404).json({ "message": "chocolate not found" });
-  res.status(200).json({ chocolate: updated });
+  res.status(200).json({chocolate: { id: Number(id), name, brandId }});
 });
 
 app.get('/chocolates/:id', async (req, res) => {
