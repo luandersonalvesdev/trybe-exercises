@@ -1,0 +1,7 @@
+trybe: https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/2e0692c9-e226-4e95-860a-b4cad80e3c3c/section/ca43af3b-fb8e-4338-add8-b32b125846cc/day/ac2e35d2-e91f-4860-9214-41007469bb4c/lesson/583c54d6-4319-423f-8f93-e764cdbb4c35
+
+video: https://www.youtube.com/watch?time_continue=41&v=EsjDr-uDoEU&embeds_referring_euri=https%3A%2F%2Fapp.betrybe.com%2F&embeds_referring_origin=https%3A%2F%2Fapp.betrybe.com&source_ve_path=MjM4NTE&feature=emb_title
+
+1 - o que significa sucesso para funcionários em posições iniciais nessa empresa?
+2 - como você descreveria a equipe e o gerente do time em que eu trabalharia?
+3 - o que você acredita ser o principal ponto positivo e o ponto a desenvolver nessa empresa?
