@@ -161,7 +161,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 
 - :heavy_check_mark: 4.1 - Node.js: Runtime Assíncrono
 - :heavy_check_mark: 4.2 - Node.js: API REST com Express
-- :clock230: 4.3 - Node.js: Testes de Integração
-- :clock230: 4.4 - Node.js: Express e Middlewares
-- :clock230: 4.5 - Node.js: Express e MySQL
+- :heavy_check_mark: 4.3 - Node.js: Testes de Integração
+- :heavy_check_mark: 4.4 - Node.js: Express e Middlewares
+- :heavy_check_mark: 4.5 - Node.js: Express e MySQL
 - :clock230: 4.6 - Projeto - Talker Manager
