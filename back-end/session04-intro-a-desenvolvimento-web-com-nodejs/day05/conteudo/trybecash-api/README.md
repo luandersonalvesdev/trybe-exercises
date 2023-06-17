@@ -1,0 +1,1 @@
+#### use `env $(cat .env) npm run dev` to run
