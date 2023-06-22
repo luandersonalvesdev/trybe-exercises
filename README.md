@@ -164,4 +164,14 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 - :heavy_check_mark: 4.3 - Node.js: Testes de Integração
 - :heavy_check_mark: 4.4 - Node.js: Express e Middlewares
 - :heavy_check_mark: 4.5 - Node.js: Express e MySQL
-- :clock230: 4.6 - Projeto - Talker Manager
+- :heavy_check_mark: 4.6 - Projeto - Talker Manager
+
+
+#### Seção 04: [Arquitetura de Software: Model, Service e Controller](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/back-end/session05-arquitetura-de-software-model-service-controller)
+
+- :heavy_check_mark: 5.1 - Arquitetura de Software: Camada Model
+- :clock230: 5.2 - Arquitetura de Software: Refatorando Camada Model
+- :clock230: 5.3 - Arquitetura de Software: Camada Service
+- :clock230: 5.4 - Arquitetura de Software: Refatorando Camada Service
+- :clock230: 5.5 - Arquitetura de Software: Refatorando Camada Controller
+- :clock230: 5.6 - Projeto - Store Manager
