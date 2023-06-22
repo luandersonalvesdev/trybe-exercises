@@ -167,7 +167,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 - :heavy_check_mark: 4.6 - Projeto - Talker Manager
 
 
-#### Seção 04: [Arquitetura de Software: Model, Service e Controller](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/back-end/session05-arquitetura-de-software-model-service-controller)
+#### Seção 05: [Arquitetura de Software: Model, Service e Controller](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/back-end/session05-arquitetura-de-software-model-service-controller)
 
 - :heavy_check_mark: 5.1 - Arquitetura de Software: Camada Model
 - :clock230: 5.2 - Arquitetura de Software: Refatorando Camada Model
