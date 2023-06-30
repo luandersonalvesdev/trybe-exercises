@@ -173,5 +173,5 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 - :heavy_check_mark: 5.2 - Arquitetura de Software: Refatorando Camada Model
 - :heavy_check_mark: 5.3 - Arquitetura de Software: Camada Service
 - :heavy_check_mark: 5.4 - Arquitetura de Software: Refatorando Camada Service
-- :clock230: 5.5 - Arquitetura de Software: Refatorando Camada Controller
-- :clock230: 5.6 - Projeto - Store Manager
+- :heavy_check_mark: 5.5 - Arquitetura de Software: Refatorando Camada Controller
+- :heavy_check_mark: 5.6 - Projeto - Store Manager
