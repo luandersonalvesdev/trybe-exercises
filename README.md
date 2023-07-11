@@ -179,7 +179,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 #### Seção 06: [Node.js: ORM e Autenticação](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/back-end/session06-nodejs-orm-e-autenticacao)
 
 - :heavy_check_mark: 6.1 - ORM - Interface da aplicação com o banco de dados
-- :clock10: 6.2 - ORM - Associations 1:1 e 1:N
+- :heavy_check_mark: 6.2 - ORM - Associations 1:1 e 1:N
 - :clock10: 6.3 - ORM - Associations N:N e Transactions
 - :clock10: 6.4 - JWT - JSON Web Token
 - :clock10: 6.5 - Projeto - API de Blogs
