@@ -1,4 +1,4 @@
-const {Employee, Address} = require('../models');
+const {Employee, Address, sequelize} = require('../models');
 
 const getAll = async () => {
   const result = await Employee.findAll({
@@ -27,7 +27,18 @@ const getById = async (id) => {
   return result;
 }
 
+const insert = async ({ firstName, lastName, age, city, street, number }) => {
+  const result = await sequelize.transaction(async (t) => {
+    const employee = await Employee.create({ firstName, lastName, age }, {transaction: t});
+    await Address.create({ city, street, number, employeeId: employee.id }, {transaction: t});
+    return employee;
+  })
+
+  return result;
+};
+
 module.exports = {
   getAll,
   getById,
+  insert,
 }
