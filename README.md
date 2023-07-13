@@ -181,5 +181,5 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 - :heavy_check_mark: 6.1 - ORM - Interface da aplicação com o banco de dados
 - :heavy_check_mark: 6.2 - ORM - Associations 1:1 e 1:N
 - :heavy_check_mark: 6.3 - ORM - Associations N:N e Transactions
-- :clock10: 6.4 - JWT - JSON Web Token
+- :heavy_check_mark: 6.4 - JWT - JSON Web Token
 - :clock10: 6.5 - Projeto - API de Blogs
