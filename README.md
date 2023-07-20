@@ -182,4 +182,16 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 - :heavy_check_mark: 6.2 - ORM - Associations 1:1 e 1:N
 - :heavy_check_mark: 6.3 - ORM - Associations N:N e Transactions
 - :heavy_check_mark: 6.4 - JWT - JSON Web Token
-- :clock10: 6.5 - Projeto - API de Blogs
+- :heavy_check_mark: 6.5 - Projeto - API de Blogs
+
+#### Seção 07: [Implantação de Aplicações na Nuvem](https://todolist-by-trybe.up.railway.app/)
+
+- :heavy_check_mark: 7.1 - Infraestrutura: Deploy com Railway
+
+#### Seção 08: [Introdução a TypeScript](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/back-end/session08-introducao-a-ts)
+
+- :clock10: 8.1 - Aprendendo TypeScript
+- :clock10: 8.2 - Introdução a Generics
+- :clock10: 8.3 - API REST com Express, JWT, Sequelize e TypeScript
+- :clock10: 8.4 - Testando Aplicações com TypeScript
+- :clock10: 8.5 - Projeto - Trybesmith
