@@ -1,0 +1,33 @@
+version: '3'
+services:
+  api:
+    image: node:16
+    container_name: api-hello-jwt
+    restart: always
+    tty: true
+    stdin_open: true
+    command: bash
+    working_dir: /app
+    volumes:
+      - ./:/app
+    ports:
+      - 3001:3001
+    depends_on:
+      - database
+    environment:
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=admin
+      - MYSQL_PORT=3306
+      - MYSQL_HOST=database # Nome do service que será utilizado para o banco de dados
+      - PORT=3001
+      - MYSQL_DATABASE=dbjwt
+
+  database:
+    image: mysql:8.0.29
+    container_name: database-hello-jwt
+    restart: always
+    ports:
+      - 33060:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=admin
+      - MYSQL_DATABASE=dbjwt
