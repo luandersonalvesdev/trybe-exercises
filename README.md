@@ -191,7 +191,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 #### Seção 08: [Introdução a TypeScript](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/back-end/session08-introducao-a-ts)
 
 - :heavy_check_mark: 8.1 - Aprendendo TypeScript
-- :clock10: 8.2 - Introdução a Generics
+- :heavy_check_mark: 8.2 - Introdução a Generics
 - :clock10: 8.3 - API REST com Express, JWT, Sequelize e TypeScript
 - :clock10: 8.4 - Testando Aplicações com TypeScript
 - :clock10: 8.5 - Projeto - Trybesmith
