@@ -192,6 +192,6 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 
 - :heavy_check_mark: 8.1 - Aprendendo TypeScript
 - :heavy_check_mark: 8.2 - Introdução a Generics
-- :clock10: 8.3 - API REST com Express, JWT, Sequelize e TypeScript
+- :heavy_check_mark: 8.3 - API REST com Express, JWT, Sequelize e TypeScript
 - :clock10: 8.4 - Testando Aplicações com TypeScript
 - :clock10: 8.5 - Projeto - Trybesmith
