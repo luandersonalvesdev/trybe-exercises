@@ -198,8 +198,8 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 
 #### Seção 09: [Programação Orientada a Objeto (POO) e SOLID](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/back-end/session09-poo-e-solid)
 
-- :clock10: 9.1 - Introdução à Orientação a Objetos
-- :clock10: 9.2 - Herança e composição
+- :heavy_check_mark: 9.1 - Introdução à Orientação a Objetos
+- :heavy_check_mark: 9.2 - Herança e composição
 - :clock10: 9.3 - Polimorfismo
 - :clock10: 9.4 - SOLID - Introdução e Princípior S, O e D
 - :clock10: 9.5 - SOLID - Princípios L e I
