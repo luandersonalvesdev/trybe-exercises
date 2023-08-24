@@ -200,7 +200,12 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 
 - :heavy_check_mark: 9.1 - Introdução à Orientação a Objetos
 - :heavy_check_mark: 9.2 - Herança e composição
-- :clock10: 9.3 - Polimorfismo
-- :clock10: 9.4 - SOLID - Introdução e Princípior S, O e D
-- :clock10: 9.5 - SOLID - Princípios L e I
-- :clock10: 9.6 - Projeto - Trybers and Dragons
+- :heavy_check_mark: 9.3 - Polimorfismo
+- :heavy_check_mark: 9.4 - SOLID - Introdução e Princípior S, O e D
+- :heavy_check_mark: 9.5 - SOLID - Princípios L e I
+- :heavy_check_mark: 9.6 - Projeto - Trybers and Dragons
+
+#### Seção 10: [Projeto TFC - Trybe Futebol Clube](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/back-end/session10-projeto-tfc)
+
+- :clock10: 9.5 - Express com classes
+- :clock10: 9.6 - Projeto TFC - Trybe Futebol Clube
