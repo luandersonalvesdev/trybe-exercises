@@ -207,5 +207,5 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 
 #### Seção 10: [Projeto TFC - Trybe Futebol Clube](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/back-end/session10-projeto-tfc)
 
-- :clock10: 9.5 - Express com classes
+- :heavy_check_mark: 9.5 - Express com classes
 - :clock10: 9.6 - Projeto TFC - Trybe Futebol Clube
