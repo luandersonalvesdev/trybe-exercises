@@ -5,7 +5,6 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 >"O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, metodologias ágeis e habilidades comportamentais."
 
 ## Módulo: Fundamentos :heavy_check_mark:
-
 #### Seção 01: [Unix e Bash](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/fundamentos/session01-unix-e-shell)
 
 - :heavy_check_mark: 1.1 - Unix & Bash - Parte 1
@@ -133,7 +132,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 
 - :heavy_check_mark: 1.1 - Projeto App de Receitas
 
-## Módulo: Back End :clock1:
+## Módulo: Back End :heavy_check_mark:
 #### Seção 01: [Docker: Utilizando Containers](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/back-end/session01-utilizando-containers)
 
 - :heavy_check_mark: 1.1 - Utilizando Containers: Docker
@@ -208,4 +207,4 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 #### Seção 10: [Projeto TFC - Trybe Futebol Clube](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/back-end/session10-projeto-tfc)
 
 - :heavy_check_mark: 9.5 - Express com classes
-- :clock10: 9.6 - Projeto TFC - Trybe Futebol Clube
+- :heavy_check_mark: 9.6 - Projeto TFC - Trybe Futebol Clube
