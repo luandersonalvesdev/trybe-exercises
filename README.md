@@ -212,5 +212,5 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 ## Módulo: Ciência da Computação :clock10:
 #### Seção 01: [Introdução a Python](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/cc/session01-introducao-a-python)
 
-- :clock10: 1.1 - Aprendendo Python
+- :heavy_check_mark: 1.1 - Aprendendo Python
 - :clock10: 1.2 - Entrada e Saída de Dados com Testes
