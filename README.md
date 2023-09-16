@@ -213,4 +213,4 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 #### Seção 01: [Introdução a Python](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/cc/session01-introducao-a-python)
 
 - :heavy_check_mark: 1.1 - Aprendendo Python
-- :clock10: 1.2 - Entrada e Saída de Dados com Testes
+- :heavy_check_mark: 1.2 - Entrada e Saída de Dados com Testes
