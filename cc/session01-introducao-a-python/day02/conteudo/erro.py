@@ -6,6 +6,7 @@ while True:
         # 'ValueError' é a exceção que ocorre quando a função int() recebe um
         # valor que não pode ser traduzido para número inteiro
         print("Oops! Esse não era um número inteiro. Tente novamente...")
+        raise ValueError("Oops! Esse não era um número inteiro. Tente novamente...")
 
 # COM ARQUIVOS:
 
