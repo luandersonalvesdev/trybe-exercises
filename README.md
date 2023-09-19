@@ -214,3 +214,8 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 
 - :heavy_check_mark: 1.1 - Aprendendo Python
 - :heavy_check_mark: 1.2 - Entrada e Saída de Dados com Testes
+
+#### Seção 02: [Algoritmos](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/cc/session02-algoritmos)
+
+- :heavy_check_mark: 1.1 - Complexidade de algoritmos
+- :heavy_check_mark: 1.2 - Recursividade e Estratégias para solução de Problemas
