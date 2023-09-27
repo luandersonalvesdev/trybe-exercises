@@ -217,5 +217,14 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 
 #### Seção 02: [Algoritmos](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/cc/session02-algoritmos)
 
-- :heavy_check_mark: 1.1 - Complexidade de algoritmos
-- :heavy_check_mark: 1.2 - Recursividade e Estratégias para solução de Problemas
+- :heavy_check_mark: 2.1 - Complexidade de algoritmos
+- :heavy_check_mark: 2.2 - Recursividade e Estratégias para solução de Problemas
+- :heavy_check_mark: 2.3 - Projeto - Algorithms
+
+#### Seção 03: [Estrutura de dados 1: Listas lineares](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/cc/session03-estrutura-de-dados-1-listas-lineares)
+
+- :heavy_check_mark: 3.1 - P.O.O. em Python
+- :heavy_check_mark: 3.2 - Arrays
+- :clock10: 3.3 - Nó e Listas Encadeadas
+- :clock10: 3.4 - Pilhas e Filas
+- :clock10: 3.5 - Projeto TING - Trybe Is Not Google
