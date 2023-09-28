@@ -225,6 +225,13 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 
 - :heavy_check_mark: 3.1 - P.O.O. em Python
 - :heavy_check_mark: 3.2 - Arrays
-- :clock10: 3.3 - Nó e Listas Encadeadas
-- :clock10: 3.4 - Pilhas e Filas
-- :clock10: 3.5 - Projeto TING - Trybe Is Not Google
+- :heavy_check_mark: 3.3 - Nó e Listas Encadeadas
+- :heavy_check_mark: 3.4 - Pilhas e Filas
+- :heavy_check_mark: 3.5 - Projeto TING - Trybe Is Not Google
+
+#### Seção 04: [Estrutura de dados 2: hashmaps e Sets](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/cc/session04-estrutura-de-dados-2-hashmaps-e-sets)
+
+- :clock10: 3.1 - Hashmap e Dict
+- :clock10: 3.2 - Set
+- :clock10: 3.3 - Projeto Restaurant Orders
+
