@@ -231,7 +231,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 
 #### Seção 04: [Estrutura de dados 2: hashmaps e Sets](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/cc/session04-estrutura-de-dados-2-hashmaps-e-sets)
 
-- :clock10: 3.1 - Hashmap e Dict
-- :clock10: 3.2 - Set
+- :heavy_check_mark: 3.1 - Hashmap e Dict
+- :heavy_check_mark: 3.2 - Set
 - :clock10: 3.3 - Projeto Restaurant Orders
 
