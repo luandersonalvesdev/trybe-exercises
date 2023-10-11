@@ -209,7 +209,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 - :heavy_check_mark: 9.5 - Express com classes
 - :heavy_check_mark: 9.6 - Projeto TFC - Trybe Futebol Clube
 
-## Módulo: Ciência da Computação :clock10:
+## Módulo: Ciência da Computação :heavy_check_mark:
 #### Seção 01: [Introdução a Python](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/cc/session01-introducao-a-python)
 
 - :heavy_check_mark: 1.1 - Aprendendo Python
@@ -233,5 +233,5 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 
 - :heavy_check_mark: 3.1 - Hashmap e Dict
 - :heavy_check_mark: 3.2 - Set
-- :clock10: 3.3 - Projeto Restaurant Orders
+- :heavy_check_mark: 3.3 - Projeto Restaurant Orders
 
