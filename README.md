@@ -239,6 +239,6 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 #### Seção 01: [Fundamentos de Kotlin](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/android/session01-fundamentos-de-kotlin)
 
 - :heavy_check_mark: 1.1 - IntelliJ e Kotlin
-- :clock10: 1.2 - Kotlin básico
+- :heavy_check_mark: 1.2 - Kotlin básico
 - :clock10: 1.3 - Coleções e HOFs
 - :clock10: 1.4 - Kotlin Playground I
