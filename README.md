@@ -240,5 +240,13 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 
 - :heavy_check_mark: 1.1 - IntelliJ e Kotlin
 - :heavy_check_mark: 1.2 - Kotlin básico
-- :clock10: 1.3 - Coleções e HOFs
-- :clock10: 1.4 - Kotlin Playground I
+- :heavy_check_mark: 1.3 - Coleções e HOFs
+- :heavy_check_mark: 1.4 - [Kotlin Playground I](https://github.com/luandersonalvesdev/kotlin-playground-1)
+
+## Eletiva: Android :clock10:
+#### Seção 02: [Orientação a Objetos com Kotlin](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/android/session02-classes-construtores-e-modificadores)
+
+- :heavy_check_mark: 1.1 - Classes, construtores e modificadores de acesso
+- :clock10: 1.2 - Data class, Enumeráveis e objetos
+- :clock10: 1.3 - Delegações e Herança
+- :clock10: 1.4 - Kotlin Playground II
