@@ -235,7 +235,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 - :heavy_check_mark: 3.2 - Set
 - :heavy_check_mark: 3.3 - Projeto Restaurant Orders
 
-## Eletiva: Android :clock10:
+## Eletiva: Android :heavy_check_mark:
 #### Seção 01: [Fundamentos de Kotlin](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/android/session01-fundamentos-de-kotlin)
 
 - :heavy_check_mark: 1.1 - IntelliJ e Kotlin
