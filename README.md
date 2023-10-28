@@ -247,6 +247,6 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 #### Seção 02: [Orientação a Objetos com Kotlin](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/android/session02-classes-construtores-e-modificadores)
 
 - :heavy_check_mark: 1.1 - Classes, construtores e modificadores de acesso
-- :clock10: 1.2 - Data class, Enumeráveis e objetos
+- :heavy_check_mark: 1.2 - Data class, Enumeráveis e objetos
 - :clock10: 1.3 - Delegações e Herança
 - :clock10: 1.4 - Kotlin Playground II
