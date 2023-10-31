@@ -235,7 +235,7 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 - :heavy_check_mark: 3.2 - Set
 - :heavy_check_mark: 3.3 - Projeto Restaurant Orders
 
-## Eletiva: Android :heavy_check_mark:
+## Eletiva: Android :clock10:
 #### Seção 01: [Fundamentos de Kotlin](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/android/session01-fundamentos-de-kotlin)
 
 - :heavy_check_mark: 1.1 - IntelliJ e Kotlin
@@ -243,7 +243,6 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 - :heavy_check_mark: 1.3 - Coleções e HOFs
 - :heavy_check_mark: 1.4 - [Kotlin Playground I](https://github.com/luandersonalvesdev/kotlin-playground-1)
 
-## Eletiva: Android :clock10:
 #### Seção 02: [Orientação a Objetos com Kotlin](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/android/session02-classes-construtores-e-modificadores)
 
 - :heavy_check_mark: 1.1 - Classes, construtores e modificadores de acesso
