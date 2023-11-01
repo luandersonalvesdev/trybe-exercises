@@ -247,5 +247,5 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 
 - :heavy_check_mark: 1.1 - Classes, construtores e modificadores de acesso
 - :heavy_check_mark: 1.2 - Data class, Enumeráveis e objetos
-- :clock10: 1.3 - Delegações e Herança
-- :clock10: 1.4 - Kotlin Playground II
+- :heavy_check_mark: 1.3 - Delegações e Herança
+- :heavy_check_mark: 1.4 - Kotlin Playground II
