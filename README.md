@@ -249,3 +249,10 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 - :heavy_check_mark: 1.2 - Data class, Enumeráveis e objetos
 - :heavy_check_mark: 1.3 - Delegações e Herança
 - :heavy_check_mark: 1.4 - Kotlin Playground II
+
+#### Seção 03: Fundamentos Desenvolvimento Android
+
+- :heavy_check_mark: 1.1 - Android Studio
+- :heavy_check_mark: 1.2 - Fundamentos de um Aplicativo Android
+- :heavy_check_mark: 1.3 - Gerenciadores de Layout e Componentes Visuais
+- :clock10: 1.4 - Projeto - Tela de Login
