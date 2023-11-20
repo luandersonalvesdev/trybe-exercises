@@ -256,3 +256,22 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 - :heavy_check_mark: 1.2 - Fundamentos de um Aplicativo Android
 - :heavy_check_mark: 1.3 - Gerenciadores de Layout e Componentes Visuais
 - :heavy_check_mark: 1.4 - Projeto - Tela de Login
+
+#### Seção 04: [Múltiplas Activities](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/android/session04-multiplas-activities)
+
+- :heavy_check_mark: 1.1 - Navegação entre telas
+- :heavy_check_mark: 1.2 - Intent e Intent Filter
+- :heavy_check_mark: 1.3 - Exibindo uma Lista com RecyclerView
+- :heavy_check_mark: 1.4 - [Projeto - Trybe Virtual Menu](https://github.com/luandersonalvesdev/trybe-virtual-menu)
+
+#### Seção 05: [Fragments e bottom navigation](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/android/session05-fragments-e-bottom-navigation)
+
+- :heavy_check_mark: 1.1 - Fragments
+- :heavy_check_mark: 1.2 - Ciclo de vida e bottom navigation
+- :heavy_check_mark: 1.3 - Bottom navigation
+
+#### Seção 06: [Assincronismo e requisições](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/android/session06-assincronismo-e-requisicoes)
+
+- :heavy_check_mark: 1.1 - Retrofit
+- :clock10: 1.2 - Threads corrotinas
+- :clock10: 1.3 - Exceções e serialização
