@@ -273,5 +273,5 @@ Atividades desenvolvidas por [mim](https://www.linkedin.com/in/luandersonalvesde
 #### Seção 06: [Assincronismo e requisições](https://github.com/luandersonalvesdev/trybe-exercises/tree/main/android/session06-assincronismo-e-requisicoes)
 
 - :heavy_check_mark: 1.1 - Retrofit
-- :clock10: 1.2 - Threads corrotinas
-- :clock10: 1.3 - Exceções e serialização
+- :heavy_check_mark: 1.2 - Threads corrotinas
+- :heavy_check_mark: 1.3 - Exceções e serialização
